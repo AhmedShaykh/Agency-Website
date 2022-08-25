@@ -3,7 +3,7 @@
 .sideline {
     position: absolute;
     width: 7.875rem;
-    height: 110%;
+    height: 100vh;
     left: 0px;
     top: 0px;
     background: #bdcfe0;
@@ -13,7 +13,7 @@
     position: absolute;
     left: 30%;
     right: 94.5%;
-    top: 6%;
+    top: 4%;
     bottom: 93.54%;
     background: #000000;
 }
