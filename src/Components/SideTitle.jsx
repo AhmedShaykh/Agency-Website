@@ -8,9 +8,9 @@ function SideTitle() {
                 <img src={Logo} alt="/" />
             </div>
             <div className="side-text">
-                <h5>
+                <p>
                     Style Takes Over
-                </h5>
+                </p>
             </div>
         </div>
     )
