@@ -1,5 +1,14 @@
 @import url('http://fonts.cdnfonts.com/css/barlow');
 
+.main {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    background: radial-gradient(213.17% 135.68% at 53.72% 129.95%, #3C3C3C 0%, #000000 60.33%);
+}
+
 .sideline {
     position: absolute;
     width: 7.875rem;
@@ -13,7 +22,7 @@
     position: absolute;
     left: 30%;
     right: 94.5%;
-    top: 4%;
+    top: 4.58%;
     bottom: 93.54%;
     background: #000000;
 }
@@ -23,14 +32,14 @@
     width: 38.75rem;
     height: 1.375rem;
     left: -14.125rem;
-    top: 26rem;
+    top: 16rem;
     font-family: 'Barlow', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 22px;
     text-align: center;
-    letter-spacing: 1.585em;
+    letter-spacing: 1em;
     text-transform: uppercase;
     color: #282828;
     transform: rotate(90deg);
