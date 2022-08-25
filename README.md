@@ -1,1 +1,1 @@
-# React.JS Shoe Design Website!
+# React.JS Shoe Website!
