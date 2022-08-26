@@ -1,4 +1,5 @@
 import React from "react";
+import MainText from "./MainText";
 import Navbar from "./Navbar";
 import SideTitle from "./SideTitle";
 
@@ -7,6 +8,7 @@ function MainPage() {
         <div className="main">
             <SideTitle />
             <Navbar />
+            <MainText />
         </div>
     )
 }
