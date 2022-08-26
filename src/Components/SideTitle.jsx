@@ -1,17 +1,12 @@
 import React from "react";
-import Logo from '../Assets/logo.svg';
+import Logo from "./Logo.js";
+import SideText from "./SideText.jsx";
 
 function SideTitle() {
     return (
         <div className="sideline">
-            <div className="logo">
-                <img src={Logo} alt="/" />
-            </div>
-            <div className="side-text">
-                <p>
-                    Style Takes Over
-                </p>
-            </div>
+            <Logo />
+            <SideText />
         </div>
     )
 }
