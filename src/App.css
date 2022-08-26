@@ -143,3 +143,16 @@
     line-height: 1.125rem;
     color: #171717;
 }
+
+.shoe {
+    position: absolute;
+    left: 365px;
+    top: -214.46px;
+}
+
+.shoe img {
+    padding-top: 11.875rem;
+    width: 80%;
+    padding-right: 1.25rem;
+    margin-left: 12.188rem;
+}
