@@ -18,6 +18,16 @@ function MainText() {
                     $99
                 </p>
             </div>
+            <div className="para">
+                <p>
+                    Nothing as fly, nothing as comfortable, nothing as proven the Nike Air Max 90 stays true to its roots with the iconic Waffle sole, stitched overlays and classic TPU accents.
+                </p>
+            </div>
+            <div>
+                <button className="btn">
+                    ADD TO CART
+                </button>
+            </div>
         </div>
     )
 }
