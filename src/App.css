@@ -78,7 +78,7 @@
     position: absolute;
     width: 32.542rem;
     height: 6.875rem;
-    left: 2.5rem;
+    left: 1.5rem;
     top: 4.25rem;
     font-family: 'Barlow';
     font-style: italic;
@@ -92,7 +92,7 @@
     position: absolute;
     width: 24.375rem;
     height: 3.125rem;
-    left: 2rem;
+    left: 1rem;
     top: 17.625rem;
     font-family: 'Barlow';
     font-style: italic;
@@ -105,7 +105,7 @@
 
 .price {
     position: absolute;
-    left: 1.875rem;
+    left: 0.875rem;
     top: 24rem;
     font-family: 'Barlow';
     font-style: italic;
@@ -117,7 +117,7 @@
 .para {
     position: absolute;
     width: 30.625rem;
-    left: 1.875rem;
+    left: 0.875rem;
     top: 31.875rem;
     font-family: 'Barlow';
     font-style: italic;
@@ -132,7 +132,7 @@
     position: absolute;
     width: 7.813rem;
     height: 3.159rem;
-    left: 1.875rem;
+    left: 0.7rem;
     top: 41.25rem;
     background: #CBD6E0;
     border-radius: 27.2727px;
