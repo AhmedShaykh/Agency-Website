@@ -12,9 +12,9 @@ function MainPage() {
             <SideTitle />
             <Navbar />
             <EllipseBG />
-            <Shoe />
+            {/* <Shoe /> */}
             <MainText />
-            <Ellipse />
+            {/* <Ellipse /> */}
         </div>
     )
 }
