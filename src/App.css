@@ -135,7 +135,7 @@
     left: 0.7rem;
     top: 41.25rem;
     background: #CBD6E0;
-    border-radius: 27.2727px;
+    border-radius: 1.705rem;
     font-family: 'Barlow';
     font-style: normal;
     font-weight: 600;
@@ -146,8 +146,8 @@
 
 .shoe {
     position: absolute;
-    left: 365px;
-    top: -214.46px;
+    left: 22.813rem;
+    top: -13.404rem;
 }
 
 .shoe img {
@@ -161,23 +161,23 @@
     position: absolute;
     width: 40.625rem;
     height: 2.125rem;
-    left: 23.125rem;
-    top: 49.125rem;
+    left: 22.125rem;
+    top: 50rem;
     background: linear-gradient(270deg, rgba(0, 0, 0, 0) -7%, rgba(0, 0, 0, 0.96) 100%);
     filter: blur(0.625rem);
-    border-radius: 12.5rem;
-    transform: rotate(-6.4deg);
+    border-radius: 6.875rem;
+    transform: rotate(356deg);
 }
 
 .ellipse-bg {
     position: absolute;
-    width: 200px;
-    height: 200px;
-    left: 875px;
-    top: 135px;
-    border-radius: 115px;
+    width: 12.5rem;
+    height: 12.5rem;
+    left: 54.688rem;
+    top: 8.438rem;
+    border-radius: 7.188rem;
     background: rgba(125, 125, 125, 0.15);
-    backdrop-filter: blur(42px);
+    backdrop-filter: blur(2.625rem);
 }
 
 .ellipse-top {
