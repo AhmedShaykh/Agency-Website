@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 import EllipseBG from "./EllipseBG";
 import Shoe from './Shoe.jsx';
 import MainText from "./MainText";
+import Ellipse from "./Ellipse";
 
 function MainPage() {
     return (
@@ -13,6 +14,7 @@ function MainPage() {
             <EllipseBG />
             <Shoe />
             <MainText />
+            <Ellipse />
         </div>
     )
 }
