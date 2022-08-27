@@ -156,3 +156,15 @@
     padding-right: 1.25rem;
     margin-left: 12.188rem;
 }
+
+.shadow {
+    position: absolute;
+    width: 40.625rem;
+    height: 2.125rem;
+    left: 23.125rem;
+    top: 49.125rem;
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0) -7%, rgba(0, 0, 0, 0.96) 100%);
+    filter: blur(0.625rem);
+    border-radius: 12.5rem;
+    transform: rotate(-6.4deg);
+}
