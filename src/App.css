@@ -168,3 +168,14 @@
     border-radius: 12.5rem;
     transform: rotate(-6.4deg);
 }
+
+.ellipse-bg {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 875px;
+    top: 135px;
+    border-radius: 115px;
+    background: rgba(125, 125, 125, 0.15);
+    backdrop-filter: blur(42px);
+}
