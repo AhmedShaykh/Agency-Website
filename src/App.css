@@ -22,7 +22,7 @@
     position: absolute;
     left: 34%;
     right: 94.5%;
-    top: 4.58%;
+    top: 5.58%;
     bottom: 93.54%;
     background: #000000;
 }
@@ -36,6 +36,9 @@
     font-weight: 600;
     font-size: 1rem;
     text-align: center;
+    left: -13rem;
+    top: 20.375rem;
+    /* top: 320px; */
     letter-spacing: 1.2em;
     text-transform: uppercase;
     color: #282828;
@@ -53,7 +56,7 @@
 }
 
 .navbar li {
-    padding: 2rem;
+    padding: 1.5rem;
     margin: 0 2rem;
     font-family: 'Barlow';
     font-style: normal;
