@@ -1,9 +1,11 @@
 import React from 'react';
-import Navbar from './Components/Navbar/Navbar.jsx';
+import GlobalStyle from './GlobalStyles';
+import { Navbar } from './Components';
 
 function App() {
   return (
     <>
+    <GlobalStyle />
     <Navbar />
     </>
   );
