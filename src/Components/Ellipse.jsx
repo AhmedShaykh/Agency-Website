@@ -5,7 +5,7 @@ function Ellipse() {
         <div>
             <div className="ellipse-top"></div>
             <div className="ellipse-bottom"></div>
-            <div className="ellipse-right"></div>
+            {/* <div className="ellipse-right"></div> */}
         </div>
     )
 }

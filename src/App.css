@@ -157,24 +157,23 @@
     margin-left: 12rem;
 }
 
-.shadow {
+.ellipse-bg {
     position: absolute;
-    width: 40.625rem;
-    height: 2.125rem;
-    left: 22.125rem;
-    top: 50rem;
-    background: linear-gradient(270deg, rgba(0, 0, 0, 0) -7%, rgba(0, 0, 0, 0.96) 100%);
-    filter: blur(0.625rem);
-    border-radius: 6.875rem;
-    transform: rotate(356deg);
+    width: 12.5rem;
+    height: 12.5rem;
+    left: 51.688rem;
+    top: 5.438rem;
+    border-radius: 7.188rem;
+    background: rgba(125, 125, 125, 0.15);
+    backdrop-filter: blur(2.625rem);
 }
 
 .ellipse-top {
     position: absolute;
-    width: 5.625rem;
-    height: 5.625rem;
-    left: 43rem;
-    top: 5.625rem;
+    width: 4.625rem;
+    height: 4.625rem;
+    left: 40rem;
+    top: 5rem;
     border-radius: 3.75rem;
     background: rgba(125, 125, 125, 0.15);
     backdrop-filter: blur(0.938rem);

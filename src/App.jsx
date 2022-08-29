@@ -4,7 +4,7 @@ import Navbar from './Components/Navbar';
 import EllipseBG from './Components/EllipseBG';
 import Shoe from './Components/Shoe';
 import MainText from './Components/MainText';
-// import SideTitle from './Components/SideTitle';
+import Ellipse from './Components/Ellipse';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <EllipseBG />
       <Shoe />
       <MainText />
-      {/* <Ellipse /> */}
+      <Ellipse />
     </div>
   );
 }
