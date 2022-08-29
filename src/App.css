@@ -151,10 +151,10 @@
 }
 
 .shoe img {
-    padding-top: 11.875rem;
+    padding-top: 8.875rem;
     width: 80%;
-    padding-right: 1.25rem;
-    margin-left: 12.188rem;
+    /* padding-right: 1.25rem; */
+    margin-left: 12rem;
 }
 
 .shadow {

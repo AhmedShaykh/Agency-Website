@@ -6,7 +6,7 @@ function Shoe() {
     return (
         <div className="shoe">
             <img src={shoe} alt="/" />
-            <Shadow />
+            {/* <Shadow /> */}
         </div>
     )
 }
