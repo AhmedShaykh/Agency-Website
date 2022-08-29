@@ -1,7 +1,7 @@
 import './App.css';
 import SideTitle from './Components/SideTitle';
 import Navbar from './Components/Navbar';
-// import EllipseBG from './Components/EllipseBG';
+import EllipseBG from './Components/EllipseBG';
 import Shoe from './Components/Shoe';
 import MainText from './Components/MainText';
 // import SideTitle from './Components/SideTitle';
@@ -11,7 +11,7 @@ function App() {
     <div className='main'>
       <SideTitle />
       <Navbar />
-      {/* <EllipseBG /> */}
+      <EllipseBG />
       <Shoe />
       <MainText />
       {/* <Ellipse /> */}

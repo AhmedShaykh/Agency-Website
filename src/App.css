@@ -147,11 +147,11 @@
 .shoe {
     position: absolute;
     left: 22.813rem;
-    top: -13.404rem;
+    top: -13rem;
 }
 
 .shoe img {
-    padding-top: 8.875rem;
+    padding-top: 9.125rem;
     width: 80%;
     /* padding-right: 1.25rem; */
     margin-left: 12rem;
@@ -167,17 +167,6 @@
     filter: blur(0.625rem);
     border-radius: 6.875rem;
     transform: rotate(356deg);
-}
-
-.ellipse-bg {
-    position: absolute;
-    width: 12.5rem;
-    height: 12.5rem;
-    left: 54.688rem;
-    top: 8.438rem;
-    border-radius: 7.188rem;
-    background: rgba(125, 125, 125, 0.15);
-    backdrop-filter: blur(2.625rem);
 }
 
 .ellipse-top {
