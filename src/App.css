@@ -70,30 +70,30 @@
 
 .text {
     position: absolute;
-    left: 10.313rem;
-    top: -5.313rem;
+    left: 9.313rem;
+    top: -7.56rem;
 }
 
 .head-text {
     position: absolute;
-    width: 32.542rem;
-    height: 6.875rem;
+    width: 31.2rem;
+    height: 3.875rem;
     left: 1.5rem;
     top: 4.25rem;
     font-family: 'Barlow';
     font-style: italic;
     font-weight: 900;
-    font-size: 4.381rem;
+    font-size: 4.2rem;
     line-height: 12.813rem;
     color: #FFFFFF;
 }
 
 .mid-text {
     position: absolute;
-    width: 24.375rem;
-    height: 3.125rem;
+    width: 21.375rem;
+    /* height: 3.125rem; */
     left: 1rem;
-    top: 17.625rem;
+    top: 17rem;
     font-family: 'Barlow';
     font-style: italic;
     font-weight: 300;
@@ -106,19 +106,19 @@
 .price {
     position: absolute;
     left: 0.875rem;
-    top: 24rem;
+    top: 23rem;
     font-family: 'Barlow';
     font-style: italic;
     font-weight: 500;
-    font-size: 2.813rem;
+    font-size: 2.6rem;
     color: #FFFFFF;
 }
 
 .para {
     position: absolute;
-    width: 30.625rem;
+    width: 29.625rem;
     left: 0.875rem;
-    top: 31.875rem;
+    top: 30rem;
     font-family: 'Barlow';
     font-style: italic;
     font-weight: 500;
@@ -133,7 +133,7 @@
     width: 7.813rem;
     height: 3.159rem;
     left: 0.7rem;
-    top: 41.25rem;
+    top: 39.25rem;
     background: #CBD6E0;
     border-radius: 1.705rem;
     font-family: 'Barlow';
