@@ -1,11 +1,11 @@
 import './App.css';
-import MainPage from './Components/MainPage';
+import SideTitle from './Components/SideTitle';
 
 function App() {
   return (
-    <>
-      <MainPage />
-    </>
+    <div className='main'>
+      <SideTitle />
+    </div>
   );
 }
 
