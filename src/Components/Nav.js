@@ -1,7 +1,5 @@
 import React from 'react';
-
-// import navigation data
-import { navigationData } from '../data';
+import { navigationData } from '../Data';
 
 const Nav = () => {
   return (
