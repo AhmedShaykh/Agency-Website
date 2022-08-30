@@ -7,7 +7,7 @@ const Features = () => {
   const { title, subtitle, list } = featuresData;
 
   return (
-    <section className='my-[70px] xl:my-[150px]'>
+    <section name="features" className='my-[70px] xl:my-[150px]'>
       <div className='container mx-auto'>
 
         <div className='text-center'>

@@ -16,25 +16,6 @@ import Feature2BgImg from '../src/Assets/Features/feature2_bg.png';
 import Feature3BgImg from '../src/Assets/Features/feature3_bg.png';
 import Feature4BgImg from '../src/Assets/Features/feature4_bg.png';
 
-export const navigationData = [
-  {
-    name: 'Home',
-    href: '#',
-  },
-  {
-    name: 'About',
-    href: '#',
-  },
-  {
-    name: 'Features',
-    href: '#',
-  },
-  {
-    name: 'Testimonials',
-    href: '#',
-  },
-];
-
 export const heroData = {
   title: ` Save your data storage here.`,
   subtitle:
@@ -44,6 +25,7 @@ export const heroData = {
 };
 
 export const aboutData = {
+  head: `About`,
   image: AboutImg,
   title: 'We are a high-level data storage bank',
   subtitle:

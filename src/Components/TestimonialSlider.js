@@ -20,7 +20,7 @@ const TestimonialSlider = () => {
     >
       {testimonialsData.map((slide, index) => {
 
-        const { image, message, name, web, delay } = slide;
+        const { image, message, name, web } = slide;
         return (
 
           <SwiperSlide
