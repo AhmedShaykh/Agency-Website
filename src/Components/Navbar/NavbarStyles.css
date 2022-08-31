@@ -19,15 +19,23 @@
 }
 
 .navbar .logo .icon {
-    font-size: 3rem;
+    font-size: 2.5rem;
+    margin-left: 1rem;
     margin-right: 1rem;
+    cursor: pointer;
     color: var(--primary-color);
 }
 
-/* .hamburger {
+.navbar .logo-text {
+    font-size: 2rem;
+    padding-left: 0.2rem;
+    cursor: pointer;
+}
+
+.hamburger {
     display: none;
     padding: 1rem;
-} */
+}
 
 .navbar .nav-menu {
     height: 100%;
@@ -40,6 +48,10 @@
     padding: 1rem;
     font-weight: 600;
     color: #fff;
+}
+
+.navbar .li {
+    cursor: pointer;
 }
 
 .navbar .icon {
