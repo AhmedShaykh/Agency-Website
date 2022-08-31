@@ -25,7 +25,6 @@ export const heroData = {
 };
 
 export const aboutData = {
-  head: `About`,
   image: AboutImg,
   title: 'We are a high-level data storage bank',
   subtitle:
