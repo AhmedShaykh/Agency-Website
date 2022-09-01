@@ -4,7 +4,7 @@ import Hero from './Components/Hero/Hero.jsx';
 import Data from './Components/Data/Data.jsx';
 import Cloud from './Components/Cloud/Cloud.jsx'
 import Contact from "./Components/Contact/Contact.jsx";
-// import Footer from './Components/Footer/Footer.jsx';
+import Footer from './Components/Footer/Footer.jsx';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <Data />
       <Cloud />
       <Contact />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
