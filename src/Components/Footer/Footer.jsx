@@ -1,7 +1,7 @@
 import React from 'react';
-import { SiDatabricks } from 'react-icons/si';
+import { FaServer } from 'react-icons/fa';
 import { BsFillArrowUpCircleFill } from 'react-icons/bs';
-import { FiMail, FiFacebook, FiGithub, FiInstagram, FiLinkedin, FiDribbble } from 'react-icons/fi';
+import { FiMail, FiFacebook, FiGithub, FiInstagram, FiLinkedin, FiTwitter } from 'react-icons/fi';
 import './FooterStyles.css';
 
 import { Link } from 'react-scroll';
@@ -12,8 +12,8 @@ const Footer = () => {
             <div className="container">
                 <div className="top">
                     <div className="logo-footer">
-                        <SiDatabricks className='icon' />
-                        <h2>Secured.</h2>
+                        <FaServer className='icon' />
+                        <h2 className='pointer'>CYBER CITY</h2>
                     </div>
                     <Link activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <BsFillArrowUpCircleFill className='icon' />
@@ -22,32 +22,32 @@ const Footer = () => {
                 </div>
                 <div className="col-container">
                     <div className="col">
-                        <h3>Navigation</h3>
-                        <p>Home</p>
-                        <p>Data</p>
-                        <p>Cloud</p>
-                        <p>Contact</p>
+                        <h3 className='pointer'>Navigation</h3>
+                        <p className='pointer'>Home</p>
+                        <p className='pointer'>Data</p>
+                        <p className='pointer'>Cloud</p>
+                        <p className='pointer'>Contact</p>
                     </div>
                     <div className="col">
-                        <h3>My Account</h3>
-                        <p>Home</p>
-                        <p>Data</p>
-                        <p>Cloud</p>
-                        <p>Contact</p>
+                        <h3 className='pointer'>My Account</h3>
+                        <p className='pointer'>Home</p>
+                        <p className='pointer'>Data</p>
+                        <p className='pointer'>Cloud</p>
+                        <p className='pointer'>Contact</p>
                     </div>
                     <div className="col">
                         <h3>Information</h3>
-                        <p>Home</p>
-                        <p>Data</p>
-                        <p>Cloud</p>
-                        <p>Contact</p>
+                        <p className='pointer'>Home</p>
+                        <p className='pointer'>Data</p>
+                        <p className='pointer'>Cloud</p>
+                        <p className='pointer'>Contact</p>
                     </div>
                     <div className="col">
-                        <h3>Legal</h3>
-                        <p>Home</p>
-                        <p>Data</p>
-                        <p>Cloud</p>
-                        <p>Contact</p>
+                        <h3 className='pointer'>Legal</h3>
+                        <p className='pointer'>Home</p>
+                        <p className='pointer'>Data</p>
+                        <p className='pointer'>Cloud</p>
+                        <p className='pointer'>Contact</p>
                     </div>
                     <form>
                         <h3>Join Our Team</h3>
@@ -57,7 +57,7 @@ const Footer = () => {
                             <FiInstagram className='social-icon' />
                             <FiFacebook className='social-icon' />
                             <FiLinkedin className='social-icon' />
-                            <FiDribbble className='social-icon' />
+                            <FiTwitter className='social-icon' />
                             <FiGithub className='social-icon' />
                         </div>
                     </form>
