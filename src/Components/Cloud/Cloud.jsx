@@ -1,20 +1,18 @@
 import React from 'react';
 import './CloudStyles.css';
 
-const Data = () => {
+const Cloud = () => {
     return (
-        <div className='data'>
+        <div className='cloud'>
             <div className="container">
                 <div className="content">
-                    <h2><span>Data</span> Recovery</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi officiis unde perferendis voluptas laborum aliquam culpa officia a maiores porro. Consequuntur officia corporis aliquam numquam, fuga quisquam illo. Obcaecati, voluptatum.</p>
-                    <div>
-                        <button>Sign Up</button>
-                    </div>
+                    <h2><span>Cloud</span> Security</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus at veritatis quisquam voluptatem nostrum reprehenderit, tempore sint placeat, aperiam alias, facilis voluptate quod itaque deleniti molestiae non odit esse necessitatibus.</p>
+                    <div><button>Sign Up</button></div>
                 </div>
             </div>
         </div>
     )
 }
 
-export default Data;
+export default Cloud;
