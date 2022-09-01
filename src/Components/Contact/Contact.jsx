@@ -21,19 +21,37 @@ const Contact = () => {
         event.preventDefault();
 
         const { fullname, email, message } = userData;
-        const res = fetch(
-            'https://react-cyber-dynamic-web-default-rtdb.firebaseio.com/userData.json', {
-            method: "POST",
-            headers: {
-                "Content-type": "application/json"
-            },
-            body: JSON.stringify({
-                fullname,
-                email,
-                message
-            })
+
+        if (fullname && email && message) {
+            const res = fetch(
+                'https://react-cyber-dynamic-web-default-rtdb.firebaseio.com/userData.json', {
+                method: "POST",
+                headers: {
+                    "Content-type": "application/json"
+                },
+                body: JSON.stringify({
+                    fullname,
+                    email,
+                    message
+                })
+            }
+            );
+
+            if (res) {
+                setUserData({
+                    fullname: "",
+                    email: "",
+                    message: ""
+                })
+                alert(`Data Stored`)
+            }
+            else {
+                alert(`Please Fill the Data`);
+            }
         }
-        );
+        else {
+            alert(`Please Fill the Data`);
+        }
     }
 
     return (
