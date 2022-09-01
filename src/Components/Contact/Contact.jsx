@@ -19,7 +19,21 @@ const Contact = () => {
 
     const submitData = async (event) => {
         event.preventDefault();
-        fetch('https://react-cyber-dynamic-web-default-rtdb.firebaseio.com/contact.json');
+
+        const { fullname, email, message } = userData;
+        const res = fetch(
+            'https://react-cyber-dynamic-web-default-rtdb.firebaseio.com/userData.json', {
+            method: "POST",
+            headers: {
+                "Content-type": "application/json"
+            },
+            body: JSON.stringify({
+                fullname,
+                email,
+                message
+            })
+        }
+        );
     }
 
     return (
