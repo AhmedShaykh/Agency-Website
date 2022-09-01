@@ -24,7 +24,7 @@ const Contact = () => {
 
         if (fullname && email && message) {
             const res = fetch(
-                'https://react-cyber-dynamic-web-default-rtdb.firebaseio.com/userData.json', {
+                'https://react-cyber-web-default-rtdb.firebaseio.com/userData.json', {
                 method: "POST",
                 headers: {
                     "Content-type": "application/json"
@@ -59,7 +59,7 @@ const Contact = () => {
             <div className="container">
                 <div className="form-container">
                     <form className='form'>
-                        <h1 style={{ paddingTop: "4rem"}}><span>Contact</span> Us</h1>
+                        <h1 style={{ paddingTop: "4rem" }}><span>Contact</span> Us</h1>
                         <div>
                             <label>Name</label>
                             <input type="text" name='fullname'
