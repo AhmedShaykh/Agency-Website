@@ -55,9 +55,18 @@
     cursor: pointer;
 }
 
+a:hover {
+    color: var(--primary-color);
+}
+
 .navbar .icon {
     font-size: 1.4rem;
     color: #fff;
+    cursor: pointer;
+}
+
+.navbar .icon:hover {
+    color: var(--primary-color);
 }
 
 @media screen and (max-width: 940px) {

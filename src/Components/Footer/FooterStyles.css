@@ -97,12 +97,17 @@ h2 {
 
 .footer form .social-icon {
     margin: 1rem 1rem 1rem 0;
-    padding: .6rem;
+    padding: .5rem;
     background-color: var(--primary-dark);
     border-radius: 4px;
     color: #f8f8f8;
-    font-size: 3rem;
+    font-size: 2.5rem;
     cursor: pointer;
+}
+
+.footer form .social-icon:hover {
+    transform: scale(1.5);
+    transition: 0.3s;
 }
 
 .footer .col-container .col .pointer {

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FaServer, FaBars, FaTimes, } from 'react-icons/fa';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './NavbarStyles.css';
 
 const Navbar = () => {
@@ -17,14 +17,10 @@ const Navbar = () => {
                 </div>
 
                 <ul className={nav ? 'nav-menu active' : 'nav-menu'}>
-                    {/* <li><Link to='/'>Home</Link></li>
-                    <li><Link to='/recovery'>Recovery</Link> </li>
-                    <li><Link to='/cloud'>Cloud</Link></li>
-                    <li><Link to='/contact'>Contact</Link></li> */}
-                    <li className='li'>Home</li>
-                    <li className='li'>Recovery</li>
-                    <li className='li'>Cloud</li>
-                    <li className='li'>Contact</li>
+                    <li className='li'><Link to='/'><a>Home</a></Link></li>
+                    <li className='li'><Link to='/recovery'><a>Recovery</a></Link> </li>
+                    <li className='li'><Link to='/cloud'><a>Cloud</a></Link></li>
+                    <li className='li'><Link to='/contact'><a>Contact</a></Link></li>
                 </ul>
 
                 <div className="hamburger" onClick={handleNav}>

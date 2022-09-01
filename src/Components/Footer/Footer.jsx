@@ -36,7 +36,7 @@ const Footer = () => {
                         <p className='pointer'>Contact</p>
                     </div>
                     <div className="col">
-                        <h3>Information</h3>
+                        <h3 className='pointer'>Information</h3>
                         <p className='pointer'>Home</p>
                         <p className='pointer'>Data</p>
                         <p className='pointer'>Cloud</p>
