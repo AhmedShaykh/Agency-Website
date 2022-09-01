@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from './Components/Navbar/Navbar.jsx';
 import Hero from './Components/Hero/Hero.jsx';
-// import Data from './Components/Data/Data.jsx';
 import Recovery from "./Components/Recovery/Recovery.jsx";
 import Cloud from './Components/Cloud/Cloud.jsx'
 import Contact from "./Components/Contact/Contact.jsx";
@@ -13,7 +12,6 @@ function App() {
       <Navbar />
       <Hero />
       <Recovery />
-      {/* <Data /> */}
       <Cloud />
       <Contact />
       <Footer />
