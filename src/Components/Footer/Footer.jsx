@@ -24,28 +24,28 @@ const Footer = () => {
                     <div className="col">
                         <h3 className='pointer'>Navigation</h3>
                         <p className='pointer'>Home</p>
-                        <p className='pointer'>Data</p>
+                        <p className='pointer'>Recovery</p>
                         <p className='pointer'>Cloud</p>
                         <p className='pointer'>Contact</p>
                     </div>
                     <div className="col">
                         <h3 className='pointer'>My Account</h3>
                         <p className='pointer'>Home</p>
-                        <p className='pointer'>Data</p>
+                        <p className='pointer'>Recovery</p>
                         <p className='pointer'>Cloud</p>
                         <p className='pointer'>Contact</p>
                     </div>
                     <div className="col">
                         <h3 className='pointer'>Information</h3>
                         <p className='pointer'>Home</p>
-                        <p className='pointer'>Data</p>
+                        <p className='pointer'>Recovery</p>
                         <p className='pointer'>Cloud</p>
                         <p className='pointer'>Contact</p>
                     </div>
                     <div className="col">
                         <h3 className='pointer'>Legal</h3>
                         <p className='pointer'>Home</p>
-                        <p className='pointer'>Data</p>
+                        <p className='pointer'>Recovery</p>
                         <p className='pointer'>Cloud</p>
                         <p className='pointer'>Contact</p>
                     </div>

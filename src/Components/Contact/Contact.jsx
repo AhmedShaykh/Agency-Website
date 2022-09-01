@@ -59,7 +59,7 @@ const Contact = () => {
             <div className="container">
                 <div className="form-container">
                     <form className='form'>
-                        <h1><span>Contact</span> Us</h1>
+                        <h1 style={{ paddingTop: "4rem"}}><span>Contact</span> Us</h1>
                         <div>
                             <label>Name</label>
                             <input type="text" name='fullname'
@@ -76,7 +76,7 @@ const Contact = () => {
                         </div>
                         <div>
                             <label>Message</label>
-                            <textarea rows='10' name='message'
+                            <textarea rows='6' name='message'
                                 placeholder='Enter your Message'
                                 value={userData.message}
                                 onChange={postUserData} />
