@@ -38,9 +38,15 @@ h2 {
 }
 
 .footer .top .icon {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-right: 1rem;
     color: var(--primary-color);
+    cursor: pointer;
+}
+
+.footer #head {
+    font-size: 2rem;
+    padding-left: 0.2rem;
     cursor: pointer;
 }
 

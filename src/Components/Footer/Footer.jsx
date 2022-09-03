@@ -13,7 +13,7 @@ const Footer = () => {
                 <div className="top">
                     <div className="logo-footer">
                         <FaServer className='icon' />
-                        <h2 className='pointer'>CYBER CITY</h2>
+                        <h2 id='head'>CYBER CITY</h2>
                     </div>
                     <Link activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <BsFillArrowUpCircleFill className='icon' />
