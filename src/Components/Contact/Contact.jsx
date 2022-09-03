@@ -1,59 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './ContactStyles.css';
 
 const Contact = () => {
-
-    const [userData, setUserData] = useState({
-        fullname: "",
-        email: "",
-        message: ""
-    });
-
-    let name, value;
-    const postUserData = (event) => {
-        name = event.target.name;
-        value = event.target.value;
-
-        setUserData({ ...userData, [name]: value });
-    }
-
-    const submitData = async (event) => {
-        event.preventDefault();
-
-        const { fullname, email, message } = userData;
-
-        if (fullname && email && message) {
-            const res = fetch(
-                'https://react-cyber-web-default-rtdb.firebaseio.com/userData.json', {
-                method: "POST",
-                headers: {
-                    "Content-type": "application/json"
-                },
-                body: JSON.stringify({
-                    fullname,
-                    email,
-                    message
-                })
-            }
-            );
-
-            if (res) {
-                setUserData({
-                    fullname: "",
-                    email: "",
-                    message: ""
-                })
-                alert(`Data Stored`)
-            }
-            else {
-                alert(`Please Fill the Data`);
-            }
-        }
-        else {
-            alert(`Please Fill the Data`);
-        }
-    }
-
     return (
         <div className='contact'>
             <div className="container">
@@ -62,26 +10,18 @@ const Contact = () => {
                         <h1 className='form-head'><span>Contact</span> Us</h1>
                         <div>
                             <label>Name</label>
-                            <input type="text" name='fullname'
-                                placeholder='Enter your Name'
-                                value={userData.fullname}
-                                onChange={postUserData} />
+                            <input type="text" placeholder='Enter your Name' />
                         </div>
                         <div>
                             <label>Email</label>
-                            <input type="email" name='email'
-                                placeholder='Enter your Email'
-                                value={userData.email}
-                                onChange={postUserData} />
+                            <input type="email" placeholder='Enter your Email' />
                         </div>
                         <div>
                             <label>Message</label>
-                            <textarea rows='6' name='message'
-                                placeholder='Enter your Message'
-                                value={userData.message}
-                                onChange={postUserData} />
+                            <textarea rows='6' placeholder='Enter your Message' />
                         </div>
-                        <button onClick={submitData}>Submit</button>
+                        
+                        <button>Submit</button>
                     </form>
                 </div>
             </div>

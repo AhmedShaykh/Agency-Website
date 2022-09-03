@@ -132,4 +132,14 @@ h2 {
     .footer form {
         grid-column: 1 / span 2;
     }
+
+    .footer .icon {
+        font-size: 2.2rem;
+        cursor: pointer;
+    }
+
+    .footer #head {
+        font-size: 1.8rem;
+        padding-left: 0rem;
+    }
 }

@@ -1,3 +1,3 @@
-# React.JS Cyber Security Dynamic Website With Firebase Realtime Database!
+# React.JS Cyber Security Static Website
 
 https://react-cyber-web.herokuapp.com/
