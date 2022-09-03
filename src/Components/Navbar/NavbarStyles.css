@@ -104,4 +104,13 @@ a:hover {
     .navbar button {
         font-size: 1.8rem;
     }
+
+    .navbar .logo .icon {
+        font-size: 2.2rem;
+    }
+
+    .navbar .logo-text {
+        font-size: 1.8rem;
+        padding-left: 0;
+    }
 }
