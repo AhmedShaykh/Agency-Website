@@ -34,6 +34,11 @@
     flex-direction: column;
 }
 
+.contact .form .form-head {
+    padding-top: 3.8rem;
+    font-size: 3.5rem;
+}
+
 .contact form label {
     margin: 2rem 0 .7rem 0;
     display: none;
@@ -62,5 +67,14 @@ textarea:focus {
 @media screen and (max-width: 940px) {
     .contact form {
         width: 100%;
+    }
+
+    .contact .form .form-head {
+        padding-top: 3.8rem;
+        font-size: 3.2rem;
+    }
+
+    .contact form input, textarea {
+        margin: 0.8rem 0;
     }
 }

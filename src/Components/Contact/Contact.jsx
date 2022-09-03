@@ -59,7 +59,7 @@ const Contact = () => {
             <div className="container">
                 <div className="form-container">
                     <form className='form'>
-                        <h1 style={{ paddingTop: "4rem" }}><span>Contact</span> Us</h1>
+                        <h1 className='form-head'><span>Contact</span> Us</h1>
                         <div>
                             <label>Name</label>
                             <input type="text" name='fullname'
